@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+	<head>
+		<meta charset ='utf-8'>
+		<title> login page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<div>
+			<h3>admin login:</h3> <br/>
+			<label for='uname' class='form'>USERNAME:</label> <br/>
+			<input id ='uname' class='form' name='uname' type='text' placeholder="admin" /> <br/>
+			<label for='pword' class='form'>PASSWORD:</label> <br/>
+			<input id ='pword' class='form' name='pword' type='text' placeholder="1234" /> <br/>
+			<br/>
+			<button id='loginB'>login</button>	
+		</div>
+
+		<div>
+			<h3>create NEW admin:</h3>
+			<p>default admin: </p>
+			<li> username: admin, password: 1234</li>
+			<p>new created admins: </p>
+			<ul></ul>
+			<label for='uname2' class='form2'>USERNAME:</label> <br/>
+			<input id ='uname2' class='form2' name='uname2' type='text' placeholder="new-admin" /> <br/>
+			<label for='pword2' class='form2'>PASSWORD:</label> <br/>
+			<input id ='pword2' class='form2' name='pword2' type='text' placeholder="new-1234" /> <br/>
+			<br/>
+			<button id='createB'>create</button>	
+
+		</div>
+
+
+		<br/>
+		<br/>
+	
+		
+		<form action="./checkin_page.html">
+    		<input type="submit" value="Checkin-IN page" />
+		</form>
+
+		<script src="./jquery.min.js"></script>
+    	<script src="./script.js"></script>
+	</body>	
+
+
+
+</html>
